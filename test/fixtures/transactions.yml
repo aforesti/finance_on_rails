@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2013-09-10
+  desc: MyString
+  value: 9.99
+  account_id: 
+  Account: MyString
+
+two:
+  date: 2013-09-10
+  desc: MyString
+  value: 9.99
+  account_id: 
+  Account: MyString
