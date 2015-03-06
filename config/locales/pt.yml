@@ -12,7 +12,7 @@
 #
 # To use a different locale, set it with `I18n.locale`:
 #
-     I18n.locale = :pt
+#    I18n.locale = :pt
 #
 # This would use the information in config/locales/es.yml.
 #
