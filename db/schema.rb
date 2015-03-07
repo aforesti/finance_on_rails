@@ -13,14 +13,14 @@
 
 ActiveRecord::Schema.define(version: 20130911022125) do
 
-  create_table "accounts", force: true do |t|
+  create_table "accounts", force: :cascade do |t|
     t.string   "name"
     t.decimal  "init_value"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "transactions", force: true do |t|
+  create_table "transactions", force: :cascade do |t|
     t.date     "date"
     t.string   "desc"
     t.decimal  "value"

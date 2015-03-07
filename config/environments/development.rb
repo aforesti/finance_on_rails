@@ -27,5 +27,5 @@ FinanceOnRails::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  I18n.locale = :pt
+  I18n.locale = :en
 end
