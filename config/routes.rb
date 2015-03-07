@@ -2,9 +2,12 @@ FinanceOnRails::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
-  resources :transactions
-  resources :accounts
   resources :home, only: [:index]
+  
+  resources :accounts do
+    resources :transactions
+  end
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
